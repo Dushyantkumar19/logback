@@ -1,0 +1,12 @@
+2018-08-18 00:07:13,307 INFO [main] c.d.l.App [App.java:14] Entering application.
+2018-08-18 00:07:13,316 DEBUG [main] c.d.l.Foo [Foo.java:10] Did it again!
+2018-08-18 00:07:13,317 INFO [main] c.d.l.App [App.java:18] Exiting application.
+2018-08-18 00:08:23,786 INFO [main] com.demo.logger.App [App.java:14] Entering application.
+2018-08-18 00:08:23,795 DEBUG [main] com.demo.logger.Foo [Foo.java:10] Did it again!
+2018-08-18 00:08:23,795 INFO [main] com.demo.logger.App [App.java:18] Exiting application.
+2018-08-18 00:08:49,616 INFO [main] com.demo.logger.App [App.java:14] Entering application.
+2018-08-18 00:08:49,623 DEBUG [main] com.demo.logger.Foo [Foo.java:10] Did it again!
+2018-08-18 00:08:49,623 INFO [main] com.demo.logger.App [App.java:18] Exiting application.
+2018-08-18 00:11:49,173 INFO [main] com.demo.logger.App [App.java:14] Entering application.
+2018-08-18 00:11:49,181 DEBUG [main] com.demo.logger.Foo [Foo.java:10] Did it again!
+2018-08-18 00:11:49,182 INFO [main] com.demo.logger.App [App.java:18] Exiting application.

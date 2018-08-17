@@ -1,0 +1,26 @@
+<included>
+<property name="BASE_DIR" value="D:/Dushyant/practice_ws/logback-demo/logs" />
+
+  <appender name="FILE" class="ch.qos.logback.core.FileAppender">
+    <file>${BASE_DIR}/myApp3.log</file>
+
+    <encoder>
+      <pattern>%date %level [%thread] %logger{500} [%file:%line] %msg%n</pattern>
+    </encoder>
+  </appender>
+
+  <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+    <encoder>
+      <pattern>%d{YYYY HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+    </encoder>
+  </appender>
+  
+   <logger name="chapters.configuration">
+    <appender-ref ref="STDOUT" />
+  </logger>
+
+  <root level="debug">
+    <appender-ref ref="FILE" />
+    <appender-ref ref="STDOUT" />
+  </root>
+  </included>
